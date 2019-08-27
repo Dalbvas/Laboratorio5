@@ -1,90 +1,59 @@
-* {margin:0; padding:0; border:0;}
-
- html, body {
-    width: auto;
-    height: auto;
-    font-family:Verdana, Geneva, sans-serif;
-    font-weight:bold;
-	background-color:#333;
- }
-
-header{
-    position:relative;
-    background-color:rgb(0, 255, 255);
-    color: black;
-    width:98%;
-    height:13%;
-    margin: 0px auto;
+*{
+   margin: 0;
+   padding: 0;
+   
 }
-
-nav{
-    position:relative;
-    background-color:rgb(255, 146, 5);
-    color:#FFF;
-    width:100%;
-    height:5%;
-    margin: 0px auto;
+body{
+   background: hotpink;
+}
+header, .main, footer{
+   width: 90%;
+   background: #ffffff;
+   max-width: 1000px;
+   margin: 20px auto;
 }
 header nav{
-   
+   background: #528FD5;
    overflow: hidden;
    
 }
-
-body nav ul{
+header nav ul{
    list-style: none;
 }
-
 header nav ul li{
    display: inline-block;
 }
-
-body nav ul li a{
+header nav ul li a{
+   padding: 10px 20px;
+   display: block;
    color: #ffffff;
-    text-decoration: none;
+   text-decoration: none;
+}
+header nav ul li a:hover{
+   background: #22e63c;
 }
 
- section{
-    position:relative;
-    float:left;
-    background-color:#001aff;
-    width:78%;
-    height:55%;
-    color:#FFF;
- }
-
- article{
-    background-color: #f11431;
-    width:98%;
-    height:58%;
-    color:#FFF;
- }
-
- aside{
-    position:relative;
-    background-color:rgb(5, 255, 5);
-    width:18%;
-    height:55%;
-    color:black;
-    float:left;
- }
-
- footer{
-    position:relative; 
-    background-color:rgb(248, 248, 7);
-    width:auto;
-    height:auto;
-    color:black;
-    clear:both;
- }
-
-
- 
- 
-header,section,footer,aside,article,nav{
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	margin:1%;
+.main .articles{
+   width: 68.5%;
+   margin-right: 1.5%;
+   background: #ffffff;
+   float:left;
 }
 
+.main .articles article{
+   padding: 20px;
+   background: gray;
+   margin-bottom: 20px;
+}
+aside{
+   width: 30%;
+   background: #ff8000;
+   float: left;
+   padding: 20px;
+   box-sizing: border-box;
+}
+footer{
+   background: #000000;
+   color: #ffffff;
+   clear: both;
+}
