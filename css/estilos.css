@@ -9,7 +9,6 @@ body{
 header, .main, footer{
    width: 90%;
    background: #ffffff;
-   max-width: 1000px;
    margin: 20px auto;
 }
 header nav{
