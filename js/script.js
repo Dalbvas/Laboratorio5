@@ -18,3 +18,11 @@ button.addEventListener("click",function()
 {
     document.write(10+11);
 });
+//Arrays
+var usuarios = ["Luis","Carlos","Pablo","Vinicio"];
+console.log(usuarios[1]);
+
+var objeto ={
+    color:"Black",
+    size:12
+}
