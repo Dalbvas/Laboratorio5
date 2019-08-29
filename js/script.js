@@ -1,8 +1,10 @@
-//Ventana emergente con mensaje
-window.alert("Bienvenido");
-
 //Solicitud de datos al usuario
-var edad=prompt("Ingrese su edad");
+var nombre;
+nombre =prompt("Ingrese su nombre", nombre);
+document.write(nombre);
+
+//Ventana emergente con mensaje
+window.alert("Bienvenido " + nombre);
 
 //Mensaje desde consola
 console.log("Este es un mensaje en consola");
